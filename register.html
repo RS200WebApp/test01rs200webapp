@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <form action="/{{pass}}" method="POST">
+      やりたいこと:
+      <input type="radio" name="mode" value="hokaku" checked/> 捕獲
+      <input type="radio" name="mode" value="sakujo" /> 削除
+      <br />
+      ポケモン: <input name="name" type="text" /><br />
+      捕獲時間: <input name="time" type="int" /><br />
+      <input type="hidden" name="team" value="{{team}}">
+      <button type="submit">Save</button>
+    </form>
+  </body>
+</html>

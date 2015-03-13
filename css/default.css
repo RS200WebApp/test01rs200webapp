@@ -1,0 +1,46 @@
+.sample_01{
+width: 100%;
+border-collapse: collapse;
+}
+
+th.araki{
+width: 25%;
+padding: 6px;
+color: #333;
+background-color: #ccf;
+border: 1px solid #b9b9b9;
+}
+
+th.hiraiwa{
+width: 25%;
+padding: 6px;
+color: #333;
+background-color: #cfc;
+border: 1px solid #b9b9b9;
+}
+
+th.yamasho{
+width: 25%;
+padding: 6px;
+color: #333;
+background-color: #eec;
+border: 1px solid #b9b9b9;
+}
+
+th.matsunaga{
+width: 25%;
+padding: 6px;
+color: #333;
+background-color: #fcc;
+border: 1px solid #b9b9b9;
+}
+
+
+
+.sample_01 td{
+padding: 6px;
+text-align: center;
+vertical-align: center;
+background-color: #fff;
+border: 1px solid #b9b9b9;
+}
